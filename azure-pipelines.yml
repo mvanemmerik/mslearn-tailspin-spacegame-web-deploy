@@ -94,7 +94,7 @@ stages:
     dependsOn: Deploy
     displayName: 'Run UI tests'
     pool:
-      vmImage: 'windows-latest'
+      vmImage: 'windows-2019'
     variables:
     - group: 'Release'
     steps: 
